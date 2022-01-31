@@ -1,0 +1,158 @@
+ul {
+  list-style-type: none;
+  margin-top: 0px ;
+  padding: : 0px;
+  overflow: hidden;
+  background-color: #ecb814;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: #ecb814;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #ecb814;
+}
+
+
+.btn {
+  background-color: #ecb814;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+h1{
+  color:#ecb814;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.tekst{
+  color:#ecb814;
+  text-align: center;
+  font-size: 25px;
+  }
+
+.naslov{
+  color:#ecb814;
+  text-align: left;
+  font-size: 21px;
+  margin-left: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+h4{
+  color:  #ecb814;
+  margin: 10px; 
+}
+
+.zanimljivo{
+  color: #ecb814;
+  text-align: justify;
+  line-height: 1.4;
+  word-spacing: 2px;
+  margin: 15px;
+}
+
+.kont{
+  position: fixed; 
+  bottom: 0; 
+  width:  100%; 
+  text-align: left;
+  color: #ecb814;
+  margin: 100px;
+}
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 352px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 350px;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: justify;
+  color: #ecb814;
+  word-spacing: 0.2px;
+}
